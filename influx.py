@@ -21,7 +21,7 @@ def get_influx_config():
 
     # augment the environment on top
     for key in ['hostname', 'port', 'username', 'password', 'database']:
-        override = os.getenv("INFLUX_{}".format(key.upper()), config.get(key, None))
+        override = os.getenv("INFLUX_OSINFO_{}".format(key.upper()), config.get(key, None))
         if override is not None:
             config[key] = override
 

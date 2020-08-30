@@ -1,0 +1,6 @@
+influx:
+    hostname: localhost
+    port: 8086
+    username: netmonitor
+    password: your_secret
+    database: netmonitor    

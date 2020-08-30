@@ -1,0 +1,4 @@
+# never check in your config
+config.yml
+__pycache__
+__pycache__/**
